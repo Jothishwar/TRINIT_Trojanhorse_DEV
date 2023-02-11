@@ -1,0 +1,9 @@
+ytd-display-ad-renderer {
+  display: none!important;
+  opacity: 0!important;
+}
+
+video[src^="bLob"]{
+  display: none!important;
+  opacity: 0!important;
+}

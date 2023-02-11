@@ -1,0 +1,222 @@
+/* Save the internet */
+
+/** GLOBAL **/
+
+body{
+  width: 370px;
+  height: 200px;
+  background: #FFF;
+  padding: 25px 35px;
+  position: relative;
+  font: system-ui, sans-serif;
+}
+h1{
+  font-size: 17px;
+  color: #000;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+h2{
+  font-size: 12px;
+  color: #888787;
+  margin-bottom: 15px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+h3{
+  font-size: 13px;
+  color: #000;
+  font-weight: 400;
+}
+/*.separator{
+  border-top: 1px solid #DCDCDC;
+  width: 100%;
+  height: 1px;
+  display: block;
+  margin-bottom: 12px;
+}*/
+#co2{
+  font-size: 17px;
+  color: #000;
+  position: absolute;
+  top: 20px;
+  right: 22px;
+}
+
+/** RESULT **/
+
+.result{
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.result > p{
+  margin-bottom: 8px;
+}
+#co2 span.round{
+  background: #FFF;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 100%;
+  margin-right: 9px;
+  margin-left: 5px;
+}
+.result .message{
+  color: #888787;
+  font-size: 12px;  
+}
+
+/** CURSOR **/
+
+.cursor-container{
+  margin-top: 4px;
+  margin-left: -3px;
+  margin-bottom: -5px;
+}
+.cursor{
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-top : 7px solid;
+ border-right : 4px solid transparent;
+ border-left : 4px solid transparent;
+}
+
+/** GRADATION **/
+
+.gradation{
+  height: 5px;
+  width: 100%;
+  background: transparent;
+  display: block;
+}
+.gradation li{
+  width: 73px;
+  height: 6px;
+  display: inline-block;
+  font-size: 0px;
+  margin-right: -3px;
+  /* outline: 2px solid #35363a;*/
+}
+
+/** COLOR **/
+
+#co2.green .round,
+.gradation li.green{
+  background: #20A432;
+}
+#co2.light-green .round,
+.gradation li.light-green{
+  background: #64E076;
+}
+#co2.yellow .round,
+.gradation li.yellow{
+  background: #E9E348;
+}
+#co2.orange .round,
+.gradation li.orange{
+  background: #ED902E;
+}
+#co2.red .round,
+.gradation li.red{
+  background: #D93625;
+}
+.cursor.green{
+  border-top: 6px solid #20A432;
+}
+.cursor.light-green{
+  border-top: 6px solid #64E076;
+}
+.cursor.yellow{
+  border-top: 6px solid #E9E348;
+}
+.cursor.orange{
+  border-top: 6px solid #ED902E;
+}
+.cursor.red{
+  border-top: 6px solid #D93625;
+}
+.result .green .message{
+  color: #20A432;
+}
+.result .light-green .message{
+  color: #64E076;
+}
+.result .yellow .message{
+  color: #E9E348;
+}
+.result .orange .message{
+  color: #ED902E;
+}
+.result .red .message{
+  color: #D93625;
+}
+
+/** NUMBER **/
+
+.numbers li{
+  width: 20%;
+  height: 6px;
+  display: inline-block;
+  font-size: 13px;
+  margin-right: -4px;
+  color: #A4A3A3;
+}
+.numbers{
+  margin-top: 15px;
+}
+.numbers li.second{
+  margin-left: -8px;
+}
+.numbers li.third{
+  margin-left: 5px;
+}
+.numbers li.fourth{
+  margin-left: -6px;
+}
+.numbers li.fifth{
+  margin-left: 4px;
+}
+.numbers li.sixth{
+  position: absolute;
+  margin-top: 2px;
+  right: -35px;
+}
+
+/** INFORMATIONS **/
+
+.informations div{
+  display: inline-block;
+  text-align: center;
+}
+.informations div p{
+  color: #000;
+  font-size: 13px;
+}
+.informations h3{
+  margin-bottom: 12px;
+}
+.informations #total-pages{
+  width: 94px;
+  margin-left: -4px;
+  margin-right: 40px;
+}
+.informations #total-co2{
+  width: 70px;
+  margin-right: 41px;
+}
+.informations #total-coal{
+  width: 120px;
+}
+.signature {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #888787;
+  font-weight: 400;
+}
+.signature svg {
+  width: 12px;
+  height: 12px;
+  fill: #D93625;
+}

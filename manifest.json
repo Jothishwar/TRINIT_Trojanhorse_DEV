@@ -5,11 +5,18 @@
   "description": "Calculates the carbon footprint of the site visited by the user",
 
   "permissions": [
-    "webRequest"
+    "webRequest",
+    "storage"
+  ],
+  "content_scripts": [ 
+    {
+      "js": [ "foreground.js" ],
+      "matches": [ "*://*/*" ]
+    } 
   ],
   
   "host_permissions": [
-    "*://*/*"
+    "<all_urls>"
   ],
 
   "background": {
