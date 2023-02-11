@@ -16,7 +16,7 @@ let translations = {
     "madewithby": "par"
   },
   "us": {
-    "title": "CO<sub>2</sub> emission of the web page",
+    "title": "CO<sub>2</sub> emission",
     "carbonLevel": {
       "low": "Very low carbon footprint",
       "weak": "Low carbon footprint",
