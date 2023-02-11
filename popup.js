@@ -25,8 +25,8 @@ let translations = {
       "veryhigh": "Very high carbon footprint",
     },
     "subtitle": "Session informations",
-    "sub_pages_title": "Visited pages",
-    "sub_Co2_title": "CO<sub>2</sub> emited",
+    "sub_pages_title": "No. of Pages",
+    "sub_Co2_title": "Total emission",
     "sub_coal_title": "Coal equivalent",
     "madewith": "Made with",
     "madewithby": "by"
@@ -107,8 +107,6 @@ function initPopup() {
   document.querySelector('#total-pages h3').innerHTML = translations[current_lang].sub_pages_title;
   document.querySelector('#total-co2 h3').innerHTML = translations[current_lang].sub_Co2_title;
   document.querySelector('#total-coal h3').innerHTML = translations[current_lang].sub_coal_title;
-  document.querySelector('#madewith').innerHTML = translations[current_lang].madewith;
-  document.querySelector('#madewithby').innerHTML = translations[current_lang].madewithby;
 }
 
 function initEvents() {
