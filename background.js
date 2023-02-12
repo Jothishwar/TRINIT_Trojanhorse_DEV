@@ -174,7 +174,7 @@ function getScore(totalBytes) {
   var co2Arr = {unit: "g", value: co2};
 
   var co2RenewArr = {unit: "g", value: co2Renew};
-
+  console.log(color);
   return {
     co2: co2Arr,
     co2Renew: co2RenewArr,

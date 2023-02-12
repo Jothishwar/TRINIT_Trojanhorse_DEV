@@ -18,11 +18,11 @@ let translations = {
   "us": {
     "title": "CO<sub>2</sub> emission",
     "carbonLevel": {
-      "low": "Very low carbon footprint",
-      "weak": "Low carbon footprint",
-      "moderate": "Moderate carbon footprint",
-      "high": "High carbon footprint",
-      "veryhigh": "Very high carbon footprint",
+      "low": "Green page",
+      "weak": "Green page",
+      "moderate": "Semi-Green page",
+      "high": "Non-Green page",
+      "veryhigh": "Non-Green page",
     },
     "subtitle": "Session informations",
     "sub_pages_title": "No. of Pages",
