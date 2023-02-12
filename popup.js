@@ -21,7 +21,7 @@ let translations = {
       "low": "Green page",
       "weak": "Green page",
       "moderate": "Semi-Green page",
-      "high": "Non-Green page",
+      "high": "Semi-Green page",
       "veryhigh": "Non-Green page",
     },
     "subtitle": "Session informations",
